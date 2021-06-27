@@ -105,7 +105,7 @@ module.exports = {
     noInfo: true,
     overlay: true,
     allowedHosts: [
-      'elb.amazonaws.com',
+      'elb.amazonaws.com'
     ],
   },
   performance: {
