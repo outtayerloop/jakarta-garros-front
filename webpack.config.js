@@ -103,7 +103,10 @@ module.exports = {
     port: 3000,
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
+    allowedHosts: [
+      'elb.amazonaws.com',
+    ],
   },
   performance: {
     hints: false
