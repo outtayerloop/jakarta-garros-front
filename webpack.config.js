@@ -1,6 +1,8 @@
 var path = require('path')
 var webpack = require('webpack')
 
+import * as config from "./config"
+
 module.exports = {
   entry: './main.js',
   output: {
@@ -100,7 +102,7 @@ module.exports = {
     extensions: ['*', '.js', '.vue', '.json']
   },
   devServer: {
-    port: 3000,
+    port: config.APP_PORT,
     historyApiFallback: true,
     noInfo: true,
     overlay: true

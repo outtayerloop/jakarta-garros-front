@@ -1,8 +1,8 @@
-import * as api from "./api";
+import * as config from "./config"
 
 export const NOM_VUE_APP = "app"
 
-export const API_BASE_URL = api.API_BASE_URL
+export const API_BASE_URL = config.API_BASE_URL
 export const SUCCESS_STATUS_CODE = 200
 export const NOT_FOUND_STATUS_CODE = 404
 
