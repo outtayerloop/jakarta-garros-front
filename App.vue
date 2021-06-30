@@ -11,6 +11,9 @@ import * as constants from "./constants";
 
 export default {
   name: constants.NOM_VUE_APP,
+  mounted(){
+    console.log(constants.API_BASE_URL)
+  }
 };
 </script>
 

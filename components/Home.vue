@@ -109,9 +109,6 @@ export default {
   },
   beforeMount: function () {
     localStorage.clear();
-  },
-  mounted(){
-    console.log(constants.API_BASE_URL) // verif URL API lors de la connexion via le load balancer aws
   }
 };
 </script>
