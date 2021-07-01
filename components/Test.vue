@@ -6,6 +6,7 @@
 
 <script>
 import * as constants from "../constants";
+import axios from "axios";
 export default {
   name: constants.NOM_VUE_TEST,
   mounted: function () {
