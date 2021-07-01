@@ -17,6 +17,9 @@ export const LOGIN_UTILISATEUR = "login"
 export const ROLE_UTILISATEUR = "role"
 
 //CONSTANTES RELATIVES AU ROUTAGE
+export const NOM_VUE_TEST = "test"
+export const ROUTE_VUE_TEST = "/test"
+
 export const NOM_VUE_HOME = "home"
 export const ROUTE_VUE_HOME = "/home"
 

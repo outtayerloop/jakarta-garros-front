@@ -1,9 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
-let apiUrl = null
 
 module.exports = () => {
-  apiUrl = `${env}`
   return {
     entry: './main.js',
     output: {

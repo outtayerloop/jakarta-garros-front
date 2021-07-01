@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '../components/Home'
+import Test from '../components/Test'
 import Resultats from '../components/Resultats'
 import Organisateur from '../components/Organisateur'
 import Login from '../components/Login'
@@ -24,6 +25,11 @@ export default new Router({
             path: constants.ROUTE_VUE_HOME,
             name: constants.NOM_VUE_HOME,
             component: Home
+        },
+        {
+            path: constants.ROUTE_VUE_TEST,
+            name: constants.NOM_VUE_TEST,
+            component: Test
         },
         {
             path: constants.ROUTE_VUE_RESULTATS_SIMPLE_MESSIEURS,
